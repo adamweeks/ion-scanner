@@ -1,0 +1,22 @@
+{
+  "name": "ionic-service-push",
+  "version": "0.0.7",
+  "homepage": "http://ionic.io",
+  "authors": [
+    "Max Lynch <max@ionicframework.com>",
+    "William Pelrine <rudy@drifty.com>"
+  ],
+  "description": "Ionic Mobile Platform Push Notifications client",
+  "main": "ionic-push.js",
+  "license": "Apache2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ionic-service-core": "master"
+  }
+}
