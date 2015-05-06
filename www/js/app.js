@@ -11,7 +11,7 @@ angular.module('scanner', [
   'ionic.service.core',
   'ionic.service.push',
   'ionic.service.deploy',
-  'starter.controllers'
+  'scanner.controllers'
 ])
 
 .config(['$ionicAppProvider', function($ionicAppProvider) {
@@ -77,7 +77,7 @@ angular.module('scanner', [
     views: {
       'tab-home': {
         templateUrl: 'templates/tab-home.html',
-        controller: 'HomeCtrl'
+        controller: 'HomeController as vm'
       }
     }
   });
