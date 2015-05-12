@@ -18,9 +18,9 @@ angular.module('scanner', [
   // Identify app
   $ionicAppProvider.identify({
     // The App ID (from apps.ionic.io) for the server
-    app_id: '6d169a9e',
+    app_id: 'YOUR_APP_ID',
     // The public API key all services will use for this app
-    api_key: '1b829b5afbf8e9921dfdf2ee6359ac2cd8a49a7637b166b3',
+    api_key: 'YOUR_API_KEY',
     // The GCM project ID (project number) from your Google Developer Console (un-comment if used)
     //gcm_id: 'GCM_ID',
   });
